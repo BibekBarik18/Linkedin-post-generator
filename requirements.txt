@@ -2,3 +2,4 @@ pandas
 openai
 duckduckgo_search
 arxiv
+dotenv
