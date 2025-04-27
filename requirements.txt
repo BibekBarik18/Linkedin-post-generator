@@ -1,5 +1,4 @@
 pandas
-json
 openai
 duckduckgo_search
 arxiv
