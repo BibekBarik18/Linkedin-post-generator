@@ -2,9 +2,9 @@ import os
 from openai import OpenAI
 from duckduckgo_search import DDGS
 import arxiv
-from dotenv import load_dotenv
+import streamlit as st
 
-load_dotenv()
+OPENROUTER_API_KEY = st.secrets["openrouter"]["api_key"]
 
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
