@@ -4,11 +4,9 @@ from duckduckgo_search import DDGS
 import arxiv
 import streamlit as st
 
-OPENROUTER_API_KEY = st.secrets["openrouter"]["api_key"]
-
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key=os.getenv("OPENROUTER_API_KEY"),
+  api_key=st.secrets["openrouter"]["api_key"],
 )
 
 def sizeof(length):
