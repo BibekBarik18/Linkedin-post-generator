@@ -76,6 +76,7 @@ def generate_posts(tag, topic, length, tone, news, research, messages, modify_in
             3. Compare trends between academia and industry.
             4. Cite sources where applicable.
             Add emojis and hashtags where applicable.
+            Start at a new line where ever necessary make it look more authentic.
             '''
         )
     elif news:
@@ -90,6 +91,7 @@ def generate_posts(tag, topic, length, tone, news, research, messages, modify_in
             {search_results}
             Provide sources wherever necessary.
             Add emojis and hashtags where applicable.
+            Start at a new line where ever necessary make it look more authentic.
             """
         )
     elif research:
@@ -105,6 +107,7 @@ def generate_posts(tag, topic, length, tone, news, research, messages, modify_in
             {papers}  
             Cite paper titles and authors where applicable.
             Add emojis and hashtags where applicable.
+            Start at a new line where ever necessary make it look more authentic.
             '''
         )
     else:
@@ -116,6 +119,7 @@ def generate_posts(tag, topic, length, tone, news, research, messages, modify_in
             3) Tone={tone}
             4) Tag={tag}
             Add emojis and hashtags where applicable.
+            Start at a new line where ever necessary make it look more authentic.
             '''
         )
     
